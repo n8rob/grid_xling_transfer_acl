@@ -39,3 +39,7 @@ General features:
 - `random_binary`: random integer 0 or 1 (control)
 - `random_float`: random decimal number between 0 and 1 (control)
 
+Need to add:
+
+- Hyperparameter search details
+
