@@ -1,19 +1,23 @@
 [
     [
-        "fuv_Latn",
+        "bjn_Arab",
+        "ace_Arab"
+    ],
+    [
+        "arz_Arab",
         "ary_Arab"
     ],
     [
-        "bjn_Arab",
-        "bam_Latn"
-    ],
-    [
-        "scn_Latn",
-        "bam_Latn"
+        "ary_Arab",
+        "arz_Arab"
     ],
     [
         "bjn_Latn",
         "ban_Latn"
+    ],
+    [
+        "hne_Deva",
+        "bho_Deva"
     ],
     [
         "mag_Deva",
@@ -24,75 +28,19 @@
         "bug_Latn"
     ],
     [
-        "scn_Latn",
-        "dik_Latn"
+        "mag_Deva",
+        "hne_Deva"
     ],
     [
-        "ace_Latn",
-        "dzo_Tibt"
-    ],
-    [
-        "fuv_Latn",
-        "dzo_Tibt"
-    ],
-    [
-        "lmo_Latn",
+        "vec_Latn",
         "ita_Latn"
-    ],
-    [
-        "lmo_Latn",
-        "lij_Latn"
-    ],
-    [
-        "ben_Beng",
-        "ltg_Latn"
     ],
     [
         "hne_Deva",
         "mag_Deva"
     ],
     [
-        "ace_Arab",
-        "nqo_Nkoo"
-    ],
-    [
-        "bjn_Arab",
-        "nus_Latn"
-    ],
-    [
-        "bug_Latn",
-        "nus_Latn"
-    ],
-    [
-        "scn_Latn",
-        "nus_Latn"
-    ],
-    [
-        "bjn_Arab",
-        "shn_Mymr"
-    ],
-    [
-        "scn_Latn",
-        "taq_Latn"
-    ],
-    [
-        "fuv_Latn",
-        "taq_Tfng"
-    ],
-    [
-        "lij_Latn",
-        "taq_Tfng"
-    ],
-    [
-        "ita_Latn",
-        "vec_Latn"
-    ],
-    [
-        "lmo_Latn",
-        "vec_Latn"
-    ],
-    [
-        "scn_Latn",
-        "vec_Latn"
+        "kas_Arab",
+        "prs_Arab"
     ]
 ]

@@ -1,9 +1,5 @@
 [
     [
-        "hat",
-        "acf"
-    ],
-    [
         "icr",
         "bzj"
     ],
@@ -12,24 +8,8 @@
         "bzj"
     ],
     [
-        "hat",
-        "crs"
-    ],
-    [
         "mfe",
         "crs"
-    ],
-    [
-        "pcm",
-        "gul"
-    ],
-    [
-        "crs",
-        "hat"
-    ],
-    [
-        "fra",
-        "hat"
     ],
     [
         "bzj",
@@ -37,14 +17,6 @@
     ],
     [
         "jam",
-        "icr"
-    ],
-    [
-        "pcm",
-        "icr"
-    ],
-    [
-        "yor",
         "icr"
     ],
     [
@@ -64,32 +36,12 @@
         "mfe"
     ],
     [
-        "fra",
-        "pap"
-    ],
-    [
-        "fuv",
-        "pap"
-    ],
-    [
         "spa",
         "pap"
-    ],
-    [
-        "bzj",
-        "pcm"
-    ],
-    [
-        "gul",
-        "pcm"
     ],
     [
         "spa",
         "por"
-    ],
-    [
-        "fra",
-        "sag"
     ],
     [
         "pap",
@@ -100,12 +52,16 @@
         "spa"
     ],
     [
-        "pcm",
-        "tpi"
+        "djk",
+        "srn"
     ],
     [
-        "sqi",
-        "tpi"
+        "twi",
+        "swh"
+    ],
+    [
+        "swh",
+        "twi"
     ],
     [
         "ktu",

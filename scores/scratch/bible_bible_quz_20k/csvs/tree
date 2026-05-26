@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="dev_set_chrf <= 5.316\nsamples = 3080\nvalue = 12.768"] ;
-1 [label="morphology_ratio <= 0.818\nsamples = 1650\nvalue = 13.579"] ;
+0 [label="dev_set_chrf <= 21.675\nsamples = 3080\nvalue = 0.621"] ;
+1 [label="same_script_as_tgt <= 0.5\nsamples = 3059\nvalue = 0.586"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="samples = 1154\nvalue = 14.406"] ;
+2 [label="samples = 982\nvalue = 0.311"] ;
 1 -> 2 ;
-3 [label="samples = 496\nvalue = 11.654"] ;
+3 [label="samples = 2077\nvalue = 0.716"] ;
 1 -> 3 ;
-4 [label="dev_set_chrf <= 18.228\nsamples = 1430\nvalue = 11.832"] ;
+4 [label="sentence_token_overlap <= 0.376\nsamples = 21\nvalue = 5.746"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="samples = 1393\nvalue = 11.606"] ;
+5 [label="samples = 13\nvalue = 4.645"] ;
 4 -> 5 ;
-6 [label="samples = 37\nvalue = 20.355"] ;
+6 [label="samples = 8\nvalue = 7.535"] ;
 4 -> 6 ;
 }

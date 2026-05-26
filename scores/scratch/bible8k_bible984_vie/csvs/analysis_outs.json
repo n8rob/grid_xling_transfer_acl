@@ -1,0 +1,78 @@
+{
+    "is_related": {
+        "correlation": "NOT SIGNIFICANT (0.02085, p=0.7948863105269227)",
+        "average": 0.5074626865671642
+    },
+    "is_substrate": {
+        "correlation": "NOT SIGNIFICANT (0.02825, p=0.7245379025093754)",
+        "average": 0.06567164179104477
+    },
+    "is_superstrate": {
+        "correlation": "NOT SIGNIFICANT (0.17595, p=0.02701245173683457)",
+        "average": 0.06716417910447761
+    },
+    "is_superstrate_or_related_creole": {
+        "correlation": "NOT SIGNIFICANT (-0.0095, p=0.9056952642614207)",
+        "average": 0.21194029850746268
+    },
+    "is_creole": {
+        "correlation": "NOT SIGNIFICANT (-0.13842, p=0.0828341917656099)",
+        "average": 0.35522388059701493
+    },
+    "has_common_superstrate": {
+        "correlation": "NOT SIGNIFICANT (-0.1392, p=0.08109289683552712)",
+        "average": 0.13432835820895522
+    },
+    "is_morphosyntactically_related": {
+        "correlation": "NOT SIGNIFICANT (-0.12189, p=0.12710429061033904)",
+        "average": 0.4208955223880597
+    },
+    "in_pretrain": {
+        "correlation": "NOT SIGNIFICANT (0.10332, p=0.19641199305570103)",
+        "average": 0.3761194029850746
+    },
+    "same_script": {
+        "correlation": "NOT SIGNIFICANT (0.06487, p=0.41805601926974983)",
+        "average": 0.8388059701492537
+    },
+    "dev_set_chrf": {
+        "correlation": "NOT SIGNIFICANT (-0.03869, p=0.6293872126680465)",
+        "average": 10.682231574010384
+    },
+    "lid_confusion_score": {
+        "correlation": "NOT SIGNIFICANT (-0.08386, p=0.2948266257638817)",
+        "average": 0.0009996221593501697
+    },
+    "phylogenetic_distance": {
+        "correlation": "NOT SIGNIFICANT (-0.01824, p=0.8200873754843238)",
+        "average": 0.04977296764514374
+    },
+    "sentence_token_overlap": {
+        "correlation": "NOT SIGNIFICANT (0.04552, p=0.5700457937276711)",
+        "average": 0.4287491423778236
+    },
+    "devset_token_overlap": {
+        "correlation": "NOT SIGNIFICANT (0.034, p=0.671454112088953)",
+        "average": 0.42257817106672335
+    },
+    "morphology_ratio": {
+        "correlation": "NOT SIGNIFICANT (-0.02885, p=0.7189442755735197)",
+        "average": 0.7536374541955397
+    },
+    "fast_align_similarity": {
+        "correlation": "NOT SIGNIFICANT (-0.11653, p=0.14479799991781772)",
+        "average": 0.059338313788904834
+    },
+    "same_script_as_tgt": {
+        "correlation": "NOT SIGNIFICANT (0.06487, p=0.41805601926974983)",
+        "average": 0.8388059701492537
+    },
+    "random_binary": {
+        "correlation": "NOT SIGNIFICANT (0.15961, p=0.04515974873881006)",
+        "average": 0.4925373134328358
+    },
+    "random_float": {
+        "correlation": "NOT SIGNIFICANT (0.04699, p=0.5576451436394121)",
+        "average": 0.5058491000116354
+    }
+}

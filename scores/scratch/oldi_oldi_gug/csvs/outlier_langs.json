@@ -1,38 +1,46 @@
 [
     [
-        "ban_Latn",
-        "ace_Latn"
+        "arz_Arab",
+        "ary_Arab"
+    ],
+    [
+        "ary_Arab",
+        "arz_Arab"
     ],
     [
         "bjn_Latn",
         "ban_Latn"
     ],
     [
+        "hne_Deva",
+        "bho_Deva"
+    ],
+    [
         "ban_Latn",
         "bjn_Latn"
     ],
     [
-        "ban_Latn",
-        "bug_Latn"
+        "bho_Deva",
+        "hne_Deva"
     ],
     [
-        "scn_Latn",
+        "vec_Latn",
         "ita_Latn"
     ],
     [
-        "scn_Latn",
-        "lij_Latn"
+        "bho_Deva",
+        "mag_Deva"
     ],
     [
-        "nqo_Nkoo",
-        "mri_Latn"
+        "hne_Deva",
+        "mag_Deva"
     ],
     [
-        "fuv_Latn",
-        "nus_Latn"
-    ],
-    [
-        "scn_Latn",
+        "ita_Latn",
         "vec_Latn"
+    ],
+    [
+        "taq_Tfng",
+        "zgh_Tfng"
     ]
 ]

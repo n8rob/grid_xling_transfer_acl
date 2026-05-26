@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="in_pretrain <= 0.5\nsamples = 380\nvalue = 0.427"] ;
+1 [label="devset_token_overlap <= 0.219\nsamples = 133\nvalue = 0.283"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 110\nvalue = 0.21"] ;
+1 -> 2 ;
+3 [label="samples = 23\nvalue = 0.636"] ;
+1 -> 3 ;
+4 [label="phylogenetic_distance <= 0.106\nsamples = 247\nvalue = 0.504"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="samples = 211\nvalue = 0.471"] ;
+4 -> 5 ;
+6 [label="samples = 36\nvalue = 0.697"] ;
+4 -> 6 ;
+}

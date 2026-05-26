@@ -1,11 +1,43 @@
 [
     [
+        "rus",
+        "bul"
+    ],
+    [
         "cmn",
         "chk"
     ],
     [
-        "jpn",
-        "chk"
+        "chk",
+        "cmn"
+    ],
+    [
+        "yue",
+        "cmn"
+    ],
+    [
+        "dln",
+        "cnh"
+    ],
+    [
+        "pck",
+        "cnh"
+    ],
+    [
+        "nor",
+        "dan"
+    ],
+    [
+        "swe",
+        "dan"
+    ],
+    [
+        "nld",
+        "deu"
+    ],
+    [
+        "cnh",
+        "dln"
     ],
     [
         "ifb",
@@ -20,19 +52,31 @@
         "ind"
     ],
     [
+        "chk",
+        "jpn"
+    ],
+    [
         "dan",
         "nor"
     ],
     [
-        "bul",
-        "rus"
+        "cnh",
+        "pck"
     ],
     [
-        "bul",
+        "dln",
+        "pck"
+    ],
+    [
+        "spa",
+        "por"
+    ],
+    [
+        "por",
+        "spa"
+    ],
+    [
+        "rus",
         "ukr"
-    ],
-    [
-        "ind",
-        "zlm"
     ]
 ]

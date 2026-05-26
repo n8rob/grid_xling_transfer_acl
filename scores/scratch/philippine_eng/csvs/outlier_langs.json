@@ -1,98 +1,22 @@
 [
     [
-        "msb",
-        "bcl"
-    ],
-    [
         "twb",
         "bnj"
     ],
     [
-        "hil",
-        "ceb"
-    ],
-    [
-        "tsg",
-        "due"
-    ],
-    [
-        "mbd",
-        "gor"
-    ],
-    [
-        "ceb",
-        "hil"
-    ],
-    [
-        "msb",
-        "hil"
-    ],
-    [
-        "tsg",
+        "msk",
         "kqe"
     ],
     [
-        "ceb",
-        "krj"
-    ],
-    [
-        "atd",
-        "mbd"
-    ],
-    [
-        "mbt",
-        "mog"
-    ],
-    [
-        "ceb",
-        "msb"
-    ],
-    [
-        "kqe",
-        "msk"
-    ],
-    [
-        "atd",
-        "msm"
-    ],
-    [
         "mbd",
         "msm"
     ],
     [
-        "tsg",
-        "obo"
-    ],
-    [
-        "ceb",
-        "rol"
-    ],
-    [
-        "hil",
-        "rol"
-    ],
-    [
-        "hil",
-        "syb"
-    ],
-    [
-        "twb",
-        "tbw"
-    ],
-    [
-        "bcl",
-        "tgl"
+        "syb",
+        "suc"
     ],
     [
         "bnj",
         "twb"
-    ],
-    [
-        "bcl",
-        "war"
-    ],
-    [
-        "ceb",
-        "war"
     ]
 ]

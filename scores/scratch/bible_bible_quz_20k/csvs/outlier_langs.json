@@ -1,21 +1,5 @@
 [
     [
-        "azb",
-        "arz"
-    ],
-    [
-        "heb",
-        "arz"
-    ],
-    [
-        "heb",
-        "azb"
-    ],
-    [
-        "heb",
-        "bul"
-    ],
-    [
         "rus",
         "bul"
     ],
@@ -28,11 +12,11 @@
         "chk"
     ],
     [
-        "jpn",
-        "chk"
+        "chk",
+        "cmn"
     ],
     [
-        "chk",
+        "yue",
         "cmn"
     ],
     [
@@ -40,8 +24,8 @@
         "cnh"
     ],
     [
-        "heb",
-        "crh"
+        "pck",
+        "cnh"
     ],
     [
         "nor",
@@ -50,14 +34,6 @@
     [
         "swe",
         "dan"
-    ],
-    [
-        "pck",
-        "dln"
-    ],
-    [
-        "hun",
-        "heb"
     ],
     [
         "ifb",
@@ -72,16 +48,16 @@
         "ind"
     ],
     [
-        "heb",
-        "kaz"
+        "fra",
+        "ita"
     ],
     [
-        "heb",
-        "kor"
+        "chk",
+        "jpn"
     ],
     [
-        "yue",
-        "mlg"
+        "ita",
+        "lat"
     ],
     [
         "dan",
@@ -100,40 +76,24 @@
         "por"
     ],
     [
-        "heb",
-        "rus"
-    ],
-    [
         "ukr",
         "rus"
     ],
     [
-        "dan",
+        "ita",
+        "spa"
+    ],
+    [
+        "por",
+        "spa"
+    ],
+    [
+        "nor",
         "swe"
-    ],
-    [
-        "ell",
-        "swe"
-    ],
-    [
-        "spa",
-        "swe"
-    ],
-    [
-        "heb",
-        "ttr"
-    ],
-    [
-        "heb",
-        "ukr"
     ],
     [
         "rus",
         "ukr"
-    ],
-    [
-        "yue",
-        "wlx"
     ],
     [
         "ind",

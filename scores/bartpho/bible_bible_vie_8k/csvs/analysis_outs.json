@@ -1,59 +1,79 @@
 {
-    "is_related": [
-        "0.2461, p=5.003759108821856e-06"
-    ],
-    "is_substrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_superstrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_superstrate_or_related_creole": [
-        "0.44442, p=1.0677368177878509e-17"
-    ],
-    "is_creole": [
-        "0.19058, p=0.0004438055246507398"
-    ],
-    "has_common_superstrate": [
-        "0.45516, p=1.3786652256350218e-18"
-    ],
-    "is_morphosyntactically_related": [
-        "0.24445, p=5.81254890394053e-06"
-    ],
-    "in_pretrain": [
-        "NOT SIGNIFICANT"
-    ],
-    "same_script": [
-        "0.29733, p=2.759352637807883e-08"
-    ],
-    "dev_set_chrf": [
-        "0.64767, p=2.4226345402990403e-41"
-    ],
-    "lid_confusion_score": [
-        "0.42437, p=4.0316512310002707e-16"
-    ],
-    "phylogenetic_distance": [
-        "0.55655, p=1.0145531523047607e-28"
-    ],
-    "sentence_token_overlap": [
-        "0.34761, p=5.620526532555649e-11"
-    ],
-    "devset_token_overlap": [
-        "0.41217, p=3.2727796090254917e-15"
-    ],
-    "morphology_ratio": [
-        "-0.38081, p=4.881582208759328e-13"
-    ],
-    "fast_align_similarity": [
-        "0.24841, p=4.04750193326554e-06"
-    ],
-    "same_script_as_tgt": [
-        "0.29733, p=2.759352637807883e-08"
-    ],
-    "random_binary": [
-        "NOT SIGNIFICANT"
-    ],
-    "random_float": [
-        "NOT SIGNIFICANT"
-    ]
+    "is_related": {
+        "correlation": "0.38725, p=1.8245346020077518e-13",
+        "average": 0.5863095238095238
+    },
+    "is_substrate": {
+        "correlation": "NOT SIGNIFICANT (-0.05353, p=0.3279803341764262)",
+        "average": 0.05952380952380952
+    },
+    "is_superstrate": {
+        "correlation": "NOT SIGNIFICANT (0.03685, p=0.5008616615043473)",
+        "average": 0.022321428571428572
+    },
+    "is_superstrate_or_related_creole": {
+        "correlation": "0.61452, p=2.849543541162973e-36",
+        "average": 0.2663690476190476
+    },
+    "is_creole": {
+        "correlation": "0.38542, p=2.416228894043383e-13",
+        "average": 0.5416666666666666
+    },
+    "has_common_superstrate": {
+        "correlation": "0.63081, p=1.0969940054721113e-38",
+        "average": 0.23214285714285715
+    },
+    "is_morphosyntactically_related": {
+        "correlation": "0.36308, p=6.589057103662594e-12",
+        "average": 0.5238095238095238
+    },
+    "in_pretrain": {
+        "correlation": "-0.25123, p=3.116768793035106e-06",
+        "average": 0.25
+    },
+    "same_script": {
+        "correlation": "0.36246, p=7.195536148705392e-12",
+        "average": 0.875
+    },
+    "dev_set_chrf": {
+        "correlation": "0.75418, p=5.679014006607289e-63",
+        "average": 11.089156547115314
+    },
+    "lid_confusion_score": {
+        "correlation": "0.48598, p=2.5653868845329402e-21",
+        "average": 0.0004131333948618593
+    },
+    "phylogenetic_distance": {
+        "correlation": "0.70996, p=8.45107316090168e-53",
+        "average": 0.05500418293521525
+    },
+    "sentence_token_overlap": {
+        "correlation": "0.39458, p=5.781888054201594e-14",
+        "average": 0.46749529575620247
+    },
+    "devset_token_overlap": {
+        "correlation": "0.4925, p=6.23851626379911e-22",
+        "average": 0.44868176767074613
+    },
+    "morphology_ratio": {
+        "correlation": "-0.44408, p=1.1377258940573175e-17",
+        "average": 0.7759820935709337
+    },
+    "fast_align_similarity": {
+        "correlation": "0.21209, p=8.935539966965303e-05",
+        "average": 0.055947002350666776
+    },
+    "same_script_as_tgt": {
+        "correlation": "0.36246, p=7.195536148705392e-12",
+        "average": 0.875
+    },
+    "random_binary": {
+        "correlation": "NOT SIGNIFICANT (0.07686, p=0.15982385171065486)",
+        "average": 0.5148809523809523
+    },
+    "random_float": {
+        "correlation": "NOT SIGNIFICANT (-0.07344, p=0.1792578469245441)",
+        "average": 0.5070541274638216
+    },
+    "avg_chrf": 1.877693160724857
 }

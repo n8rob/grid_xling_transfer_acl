@@ -1,59 +1,79 @@
 {
-    "is_related": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_substrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_superstrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_superstrate_or_related_creole": [
-        "-0.11887, p=4.466490666951697e-06"
-    ],
-    "is_creole": [
-        "NOT SIGNIFICANT"
-    ],
-    "has_common_superstrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_morphosyntactically_related": [
-        "NOT SIGNIFICANT"
-    ],
-    "in_pretrain": [
-        "NOT SIGNIFICANT"
-    ],
-    "same_script": [
-        "NOT SIGNIFICANT"
-    ],
-    "dev_set_chrf": [
-        "0.2482, p=3.0505973157793866e-22"
-    ],
-    "lid_confusion_score": [
-        "NOT SIGNIFICANT"
-    ],
-    "phylogenetic_distance": [
-        "NOT SIGNIFICANT"
-    ],
-    "sentence_token_overlap": [
-        "0.21324, p=1.0623976443422581e-16"
-    ],
-    "devset_token_overlap": [
-        "NOT SIGNIFICANT"
-    ],
-    "morphology_ratio": [
-        "NOT SIGNIFICANT"
-    ],
-    "fast_align_similarity": [
-        "0.19602, p=2.663260278744857e-14"
-    ],
-    "same_script_as_tgt": [
-        "NOT SIGNIFICANT"
-    ],
-    "random_binary": [
-        "NOT SIGNIFICANT"
-    ],
-    "random_float": [
-        "NOT SIGNIFICANT"
-    ]
+    "is_related": {
+        "correlation": "0.10142, p=9.183145984160947e-05",
+        "average": 0.9723346828609987
+    },
+    "is_substrate": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_superstrate": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_superstrate_or_related_creole": {
+        "correlation": "NOT SIGNIFICANT (-0.00129, p=0.9605124938659606)",
+        "average": 0.3407557354925776
+    },
+    "is_creole": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 1.0
+    },
+    "has_common_superstrate": {
+        "correlation": "NOT SIGNIFICANT (0.01605, p=0.5369091638310419)",
+        "average": 0.27530364372469635
+    },
+    "is_morphosyntactically_related": {
+        "correlation": "0.1391, p=7.596504125806366e-08",
+        "average": 0.9487179487179487
+    },
+    "in_pretrain": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "same_script": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 1.0
+    },
+    "dev_set_chrf": {
+        "correlation": "0.09162, p=0.0004133457548346096",
+        "average": 5.5712635161130954
+    },
+    "lid_confusion_score": {
+        "correlation": "NOT SIGNIFICANT (0.0723, p=0.005357065743097303)",
+        "average": 0.016476243928219798
+    },
+    "phylogenetic_distance": {
+        "correlation": "NOT SIGNIFICANT (0.05507, p=0.034026760627306946)",
+        "average": 0.07733497214360754
+    },
+    "sentence_token_overlap": {
+        "correlation": "0.22673, p=9.89011886456704e-19",
+        "average": 0.06437639771750206
+    },
+    "devset_token_overlap": {
+        "correlation": "0.15896, p=7.576008323476346e-10",
+        "average": 0.24185137507534588
+    },
+    "morphology_ratio": {
+        "correlation": "NOT SIGNIFICANT (-0.08457, p=0.0011182364379036783)",
+        "average": 0.3792163371155931
+    },
+    "fast_align_similarity": {
+        "correlation": "0.10464, p=5.437546899425964e-05",
+        "average": 0.19858346305119712
+    },
+    "same_script_as_tgt": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 1.0
+    },
+    "random_binary": {
+        "correlation": "NOT SIGNIFICANT (-0.01633, p=0.5300197930645935)",
+        "average": 0.5168690958164642
+    },
+    "random_float": {
+        "correlation": "NOT SIGNIFICANT (0.02148, p=0.40872710365581216)",
+        "average": 0.49987818919483346
+    },
+    "avg_chrf": 0.45291818566591524
 }

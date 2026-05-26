@@ -42,9 +42,9 @@
 
 ![#6B8E23](https://readme-swatches.vercel.app/6B8E23) kri
 
-![#E6E6FA](https://readme-swatches.vercel.app/E6E6FA) bzj
+![#E6E6FA](https://readme-swatches.vercel.app/E6E6FA) djk
 
-![#F5DEB3](https://readme-swatches.vercel.app/F5DEB3) djk
+![#F5DEB3](https://readme-swatches.vercel.app/F5DEB3) bzj
 
 ![#FAEBD7](https://readme-swatches.vercel.app/FAEBD7) cab
 

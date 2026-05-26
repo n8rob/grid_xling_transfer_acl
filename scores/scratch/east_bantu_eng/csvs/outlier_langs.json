@@ -1,26 +1,6 @@
 [
     [
-        "lgm",
-        "bem"
-    ],
-    [
-        "suk",
-        "bem"
-    ],
-    [
-        "tap",
-        "bem"
-    ],
-    [
-        "gog",
-        "cwe"
-    ],
-    [
         "kdc",
-        "cwe"
-    ],
-    [
-        "vid",
         "cwe"
     ],
     [
@@ -40,51 +20,23 @@
         "dug"
     ],
     [
-        "kdc",
-        "gog"
-    ],
-    [
         "ksb",
         "gog"
-    ],
-    [
-        "xog",
-        "gwr"
-    ],
-    [
-        "kde",
-        "heh"
     ],
     [
         "toi",
         "ilb"
     ],
     [
-        "kde",
-        "jmc"
+        "ndc",
+        "kck"
     ],
     [
         "cwe",
         "kdc"
     ],
     [
-        "gog",
-        "kdc"
-    ],
-    [
-        "ksb",
-        "kdc"
-    ],
-    [
-        "jmc",
-        "kde"
-    ],
-    [
-        "mgr",
-        "kde"
-    ],
-    [
-        "sna",
+        "thk",
         "kik"
     ],
     [
@@ -96,76 +48,20 @@
         "kki"
     ],
     [
-        "vid",
-        "kki"
-    ],
-    [
         "gog",
         "ksb"
-    ],
-    [
-        "ziw",
-        "ksb"
-    ],
-    [
-        "bem",
-        "lai"
-    ],
-    [
-        "lgm",
-        "lai"
-    ],
-    [
-        "mgr",
-        "lai"
-    ],
-    [
-        "ksb",
-        "lam"
-    ],
-    [
-        "sna",
-        "lam"
     ],
     [
         "ilb",
         "leh"
     ],
     [
-        "nso",
-        "loz"
-    ],
-    [
         "sot",
         "loz"
     ],
     [
-        "lug",
-        "lsm"
-    ],
-    [
-        "nyo",
-        "lsm"
-    ],
-    [
-        "kin",
-        "lug"
-    ],
-    [
-        "nyo",
-        "lug"
-    ],
-    [
         "xog",
         "lug"
-    ],
-    [
-        "lug",
-        "myx"
-    ],
-    [
-        "rim",
-        "myx"
     ],
     [
         "sna",
@@ -180,48 +76,16 @@
         "nde"
     ],
     [
-        "lam",
-        "ndj"
-    ],
-    [
-        "ksb",
-        "ngp"
-    ],
-    [
         "ziw",
         "ngp"
-    ],
-    [
-        "nnq",
-        "nim"
-    ],
-    [
-        "nnq",
-        "nnb"
-    ],
-    [
-        "xho",
-        "nnb"
-    ],
-    [
-        "gog",
-        "nse"
-    ],
-    [
-        "nde",
-        "nso"
     ],
     [
         "sot",
         "nso"
     ],
     [
-        "lug",
-        "nuj"
-    ],
-    [
-        "xog",
-        "nuj"
+        "tsn",
+        "nso"
     ],
     [
         "seh",
@@ -236,76 +100,24 @@
         "nyf"
     ],
     [
-        "kin",
-        "nyn"
-    ],
-    [
-        "lug",
-        "nyn"
+        "dug",
+        "nyf"
     ],
     [
         "nyo",
         "nyn"
-    ],
-    [
-        "kin",
-        "nyo"
-    ],
-    [
-        "lug",
-        "nyo"
     ],
     [
         "nyn",
         "nyo"
     ],
     [
-        "jmc",
-        "old"
-    ],
-    [
         "vun",
         "old"
-    ],
-    [
-        "vun",
-        "pkb"
-    ],
-    [
-        "nim",
-        "poy"
-    ],
-    [
-        "vun",
-        "rim"
-    ],
-    [
-        "ssw",
-        "rub"
-    ],
-    [
-        "vun",
-        "rub"
-    ],
-    [
-        "kdc",
-        "ruf"
     ],
     [
         "kin",
         "run"
-    ],
-    [
-        "lug",
-        "run"
-    ],
-    [
-        "nyo",
-        "run"
-    ],
-    [
-        "nya",
-        "seh"
     ],
     [
         "ndc",
@@ -320,48 +132,12 @@
         "sot"
     ],
     [
-        "nde",
-        "ssw"
-    ],
-    [
         "zul",
         "ssw"
     ],
     [
-        "tap",
-        "suk"
-    ],
-    [
         "dig",
         "swh"
-    ],
-    [
-        "nya",
-        "swh"
-    ],
-    [
-        "lgm",
-        "sxb"
-    ],
-    [
-        "lug",
-        "sxb"
-    ],
-    [
-        "bem",
-        "tap"
-    ],
-    [
-        "lam",
-        "tap"
-    ],
-    [
-        "sna",
-        "thk"
-    ],
-    [
-        "nnq",
-        "tlj"
     ],
     [
         "ilb",
@@ -376,20 +152,8 @@
         "tsn"
     ],
     [
-        "lam",
-        "tso"
-    ],
-    [
-        "ndc",
+        "nya",
         "tum"
-    ],
-    [
-        "vun",
-        "tum"
-    ],
-    [
-        "sna",
-        "ven"
     ],
     [
         "jmc",
@@ -408,31 +172,19 @@
         "xho"
     ],
     [
-        "kin",
-        "xog"
-    ],
-    [
         "lug",
         "xog"
-    ],
-    [
-        "nyo",
-        "xog"
-    ],
-    [
-        "ksb",
-        "ziw"
     ],
     [
         "ngp",
         "ziw"
     ],
     [
-        "ndc",
+        "nde",
         "zul"
     ],
     [
-        "nde",
+        "ssw",
         "zul"
     ],
     [

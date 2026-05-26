@@ -1,59 +1,79 @@
 {
-    "is_related": [
-        "0.3345, p=2.411074468530957e-19"
-    ],
-    "is_substrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_superstrate": [
-        "NOT SIGNIFICANT"
-    ],
-    "is_superstrate_or_related_creole": [
-        "0.51998, p=1.2087204917828592e-48"
-    ],
-    "is_creole": [
-        "0.27206, p=4.514182316487585e-13"
-    ],
-    "has_common_superstrate": [
-        "0.51106, p=8.817288011708367e-47"
-    ],
-    "is_morphosyntactically_related": [
-        "0.29959, p=1.1903690072037887e-15"
-    ],
-    "in_pretrain": [
-        "-0.21733, p=9.341360596858275e-09"
-    ],
-    "same_script": [
-        "0.53616, p=3.632649591083306e-52"
-    ],
-    "dev_set_chrf": [
-        "0.80792, p=8.763932266087207e-159"
-    ],
-    "lid_confusion_score": [
-        "0.46939, p=8.987872785876509e-39"
-    ],
-    "phylogenetic_distance": [
-        "0.58096, p=5.49260553537602e-63"
-    ],
-    "sentence_token_overlap": [
-        "0.51847, p=2.5215822994976844e-48"
-    ],
-    "devset_token_overlap": [
-        "0.61647, p=7.803706045423246e-73"
-    ],
-    "morphology_ratio": [
-        "-0.50836, p=3.160548467906546e-46"
-    ],
-    "fast_align_similarity": [
-        "0.2749, p=2.5202700569915065e-13"
-    ],
-    "same_script_as_tgt": [
-        "0.53616, p=3.632649591083306e-52"
-    ],
-    "random_binary": [
-        "NOT SIGNIFICANT"
-    ],
-    "random_float": [
-        "NOT SIGNIFICANT"
-    ]
+    "is_related": {
+        "correlation": "0.35863, p=3.4442761432333584e-22",
+        "average": 0.5365497076023392
+    },
+    "is_substrate": {
+        "correlation": "NOT SIGNIFICANT (-0.00321, p=0.9331548661264758)",
+        "average": 0.09502923976608187
+    },
+    "is_superstrate": {
+        "correlation": "0.13226, p=0.0005245816914095005",
+        "average": 0.021929824561403508
+    },
+    "is_superstrate_or_related_creole": {
+        "correlation": "0.61604, p=1.0415164356487776e-72",
+        "average": 0.195906432748538
+    },
+    "is_creole": {
+        "correlation": "0.32035, p=8.683145848138609e-18",
+        "average": 0.4473684210526316
+    },
+    "has_common_superstrate": {
+        "correlation": "0.60675, p=5.1277588072736874e-70",
+        "average": 0.14912280701754385
+    },
+    "is_morphosyntactically_related": {
+        "correlation": "0.31321, p=4.927657708800424e-17",
+        "average": 0.4926900584795322
+    },
+    "in_pretrain": {
+        "correlation": "-0.20117, p=1.120738580376335e-07",
+        "average": 0.21052631578947367
+    },
+    "same_script": {
+        "correlation": "0.33313, p=3.4416602472983017e-19",
+        "average": 0.8947368421052632
+    },
+    "dev_set_chrf": {
+        "correlation": "0.73579, p=1.4895708882455813e-117",
+        "average": 10.983221647171836
+    },
+    "lid_confusion_score": {
+        "correlation": "0.60948, p=8.50272204847042e-71",
+        "average": 0.0007558311194080903
+    },
+    "phylogenetic_distance": {
+        "correlation": "0.72112, p=8.445967334409835e-111",
+        "average": 0.042317677904054475
+    },
+    "sentence_token_overlap": {
+        "correlation": "0.43601, p=4.142818509688697e-33",
+        "average": 0.4460791549252914
+    },
+    "devset_token_overlap": {
+        "correlation": "0.47898, p=1.6101002988519302e-40",
+        "average": 0.45821205885426464
+    },
+    "morphology_ratio": {
+        "correlation": "-0.41712, p=3.57496493780661e-30",
+        "average": 0.6493860235705425
+    },
+    "fast_align_similarity": {
+        "correlation": "0.25654, p=9.669593967649576e-12",
+        "average": 0.059773846239277444
+    },
+    "same_script_as_tgt": {
+        "correlation": "0.33313, p=3.4416602472983017e-19",
+        "average": 0.8947368421052632
+    },
+    "random_binary": {
+        "correlation": "NOT SIGNIFICANT (0.0102, p=0.7900433471636262)",
+        "average": 0.52046783625731
+    },
+    "random_float": {
+        "correlation": "NOT SIGNIFICANT (-0.007, p=0.8549416350274374)",
+        "average": 0.5013629910520722
+    },
+    "avg_chrf": 1.7239307310876977
 }

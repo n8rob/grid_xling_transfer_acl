@@ -1,0 +1,79 @@
+{
+    "is_related": {
+        "correlation": "NOT SIGNIFICANT (0.02251, p=0.556680137086714)",
+        "average": 0.5365497076023392
+    },
+    "is_substrate": {
+        "correlation": "NOT SIGNIFICANT (0.06521, p=0.0883324697311126)",
+        "average": 0.09502923976608187
+    },
+    "is_superstrate": {
+        "correlation": "0.174, p=4.70845589509261e-06",
+        "average": 0.021929824561403508
+    },
+    "is_superstrate_or_related_creole": {
+        "correlation": "0.17854, p=2.6183982451290295e-06",
+        "average": 0.195906432748538
+    },
+    "is_creole": {
+        "correlation": "NOT SIGNIFICANT (-0.0782, p=0.04089332079019991)",
+        "average": 0.4473684210526316
+    },
+    "has_common_superstrate": {
+        "correlation": "0.15491, p=4.7297817772609115e-05",
+        "average": 0.14912280701754385
+    },
+    "is_morphosyntactically_related": {
+        "correlation": "NOT SIGNIFICANT (0.00497, p=0.896799183187266)",
+        "average": 0.4926900584795322
+    },
+    "in_pretrain": {
+        "correlation": "NOT SIGNIFICANT (-0.02439, p=0.5242073972867574)",
+        "average": 0.21052631578947367
+    },
+    "same_script": {
+        "correlation": "NOT SIGNIFICANT (0.09435, p=0.013563614583084025)",
+        "average": 0.8947368421052632
+    },
+    "dev_set_chrf": {
+        "correlation": "0.31753, p=1.733449482971356e-17",
+        "average": 10.983221647171836
+    },
+    "lid_confusion_score": {
+        "correlation": "0.36862, p=1.9347355659068734e-23",
+        "average": 0.0007558311194080903
+    },
+    "phylogenetic_distance": {
+        "correlation": "0.28679, p=2.042163156121473e-14",
+        "average": 0.042317677904054475
+    },
+    "sentence_token_overlap": {
+        "correlation": "0.37729, p=1.4560947734217309e-24",
+        "average": 0.09606775821425502
+    },
+    "devset_token_overlap": {
+        "correlation": "0.36886, p=1.8014722406892805e-23",
+        "average": 0.08014371876650409
+    },
+    "morphology_ratio": {
+        "correlation": "NOT SIGNIFICANT (-0.12068, p=0.0015672199992147408)",
+        "average": 0.62237824832015
+    },
+    "fast_align_similarity": {
+        "correlation": "0.18045, p=2.0375163214793853e-06",
+        "average": 0.059773846239277444
+    },
+    "same_script_as_tgt": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "random_binary": {
+        "correlation": "NOT SIGNIFICANT (0.07497, p=0.05001241209856516)",
+        "average": 0.5497076023391813
+    },
+    "random_float": {
+        "correlation": "NOT SIGNIFICANT (0.01261, p=0.7419829837589296)",
+        "average": 0.5197904983525293
+    },
+    "avg_chrf": 0.16155314336594326
+}

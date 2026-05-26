@@ -1,9 +1,5 @@
 [
     [
-        "icr",
-        "bzj"
-    ],
-    [
         "srn",
         "djk"
     ],
@@ -16,27 +12,27 @@
         "icr"
     ],
     [
-        "jam",
-        "icr"
-    ],
-    [
-        "bzj",
-        "jam"
-    ],
-    [
         "icr",
         "jam"
+    ],
+    [
+        "hat",
+        "mfe"
     ],
     [
         "spa",
         "por"
     ],
     [
-        "djk",
-        "srn"
+        "fra",
+        "sag"
     ],
     [
-        "mai",
-        "tpi"
+        "por",
+        "spa"
+    ],
+    [
+        "djk",
+        "srn"
     ]
 ]

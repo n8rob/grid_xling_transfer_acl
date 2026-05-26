@@ -1,0 +1,79 @@
+{
+    "is_related": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_substrate": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_superstrate": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_superstrate_or_related_creole": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_creole": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "has_common_superstrate": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "is_morphosyntactically_related": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "in_pretrain": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "same_script": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 1.0
+    },
+    "dev_set_chrf": {
+        "correlation": "0.30711, p=0.00013201541686830553",
+        "average": 28.222659415817454
+    },
+    "lid_confusion_score": {
+        "correlation": "NOT SIGNIFICANT (0.09425, p=0.25131005584290306)",
+        "average": 0.02872305003208917
+    },
+    "phylogenetic_distance": {
+        "correlation": "NOT SIGNIFICANT (0.15873, p=0.05236693469184535)",
+        "average": 0.2663412698412699
+    },
+    "sentence_token_overlap": {
+        "correlation": "0.28018, p=0.0005154320407792492",
+        "average": 0.3560013218446271
+    },
+    "devset_token_overlap": {
+        "correlation": "0.27579, p=0.0006356437513517174",
+        "average": 0.38737814266481174
+    },
+    "morphology_ratio": {
+        "correlation": "NOT SIGNIFICANT (0.01142, p=0.8897032535454344)",
+        "average": 0.09067193871158982
+    },
+    "fast_align_similarity": {
+        "correlation": "NOT SIGNIFICANT (0.0696, p=0.3973656901835504)",
+        "average": 0.4094473051226589
+    },
+    "same_script_as_tgt": {
+        "correlation": "NOT SIGNIFICANT (nan, p=nan)",
+        "average": 0.0
+    },
+    "random_binary": {
+        "correlation": "NOT SIGNIFICANT (0.06872, p=0.40340502757957686)",
+        "average": 0.4666666666666667
+    },
+    "random_float": {
+        "correlation": "NOT SIGNIFICANT (0.13407, p=0.10190663219572207)",
+        "average": 0.5489157109544996
+    },
+    "avg_chrf": 32.28290823980366
+}

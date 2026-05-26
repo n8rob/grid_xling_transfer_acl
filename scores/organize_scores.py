@@ -7,6 +7,8 @@ def create_latex_table(
     dir_="apics_apics/jsons",
     format_str="train_{}_test_{}_into_{}_scores.json"
 ):
+    assert os.path.exists(dir_), f"{dir_} does not exist"
+    
     # make regex_str and grep_str 
     regex_str = r'' + format_str.format(
         '([a-z]{3}[a-z]?[0-9]*\_?[A-Z]*[a-z]*)\+?[a-z]*[0-9]*\_?[A-Z]*[a-z]*',
@@ -22,6 +24,7 @@ def create_latex_table(
     # Loop 
     chrf_dict = {}
     spbleu_dict = {}
+    score_dict = {}
     # pdb.set_trace() 
     for json_path in tqdm(json_paths):
         train_src_lang = fn_regex.search(json_path)[1]
@@ -34,12 +37,16 @@ def create_latex_table(
         if train_src_lang not in chrf_dict: 
             chrf_dict[train_src_lang] = {}
             spbleu_dict[train_src_lang] = {} 
+            score_dict[train_src_lang] = {}
         
         chrf_dict[train_src_lang][test_src_lang] = score_data[
             'chrF++'
         ]
         spbleu_dict[train_src_lang][test_src_lang] = score_data[
             'SpBLEU'
+        ]
+        score_dict[train_src_lang][test_src_lang] = score_data[
+            "normalized_chrF++"
         ]
     
     # Sort dicts to make dfs 
@@ -55,11 +62,16 @@ def create_latex_table(
         spbleu_dict[key] = {
             k: spbleu_dict[key].get(k, '-') for k in sorted_ks
         }
+        score_dict[key] = {
+            k: score_dict[key].get(k, '-') for k in sorted_ks
+        }
     chrf_dict = {key: chrf_dict[key] for key in sorted_keys}
     spbleu_dict = {key: spbleu_dict[key] for key in sorted_keys}
+    score_dict = {key: score_dict[key] for key in sorted_keys}
     # Make pandas dfs  
     chrf_df = pd.DataFrame(chrf_dict)
     spbleu_df = pd.DataFrame(spbleu_dict)
+    score_df = pd.DataFrame(score_dict)
 
     dir_parent = os.path.split(dir_)[0]
     out_csv_dir = os.path.join(dir_parent, 'csvs')
@@ -67,8 +79,10 @@ def create_latex_table(
         os.makedirs(out_csv_dir)
     out_chrf_csv = os.path.join(out_csv_dir, 'chrf.csv')
     out_spbleu_csv = os.path.join(out_csv_dir, 'spbleu.csv')
+    out_score_csv = os.path.join(out_csv_dir, 'score.csv')
     chrf_df.to_csv(out_chrf_csv)
     spbleu_df.to_csv(out_spbleu_csv)
+    score_df.to_csv(out_score_csv)
     print("See", out_csv_dir)
 
 if __name__ == "__main__":
